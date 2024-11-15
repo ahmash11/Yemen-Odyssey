@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+body {
+    background-color: #FCF1E9;
+    font-family: 'Montaga', sans-serif;
+}
+
+#logo {
+    border-radius: 30%;
+    margin-bottom: 0.44;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+div a {
+    color: #F9E3D3;
+    justify-content: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: #3C1E08;
+    text-decoration: none;
+    font-size: larger;
+}
+footer {
+    background-color: #8B4513;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width: 100;
+}
+
+footer div p{
+    margin-bottom: 10px;
+    color: #F9E3D3;
+}
+header {
+    background-color: #8B4513;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+}
+
+
+
+
+.contact {
+    background-color: rgba(254, 252, 250, 0.9); 
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+.contact h1 {
+    text-align: center;
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0 20px;
+    border-radius: 12px;
+    border: 1px solid #E0E0E0;
+    font-size: 15px;
+    background-color: #FEFCFA;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #b98e6f;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    transition:  0.5s ease-in-out;
+}
+
+button:hover {
+    background-color:#F9E3D3;
+    color: #0A0501;
+}
+
+
+.details {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.details h2 {
+    font-size: 28px;
+    color: #8B4513;
+}
+
+.details p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.social {
+    padding: 20px;
+    text-decoration: none;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+
+.copy {
+    color: #FEFCFA;
+    margin-bottom: 1px;
+}
+
+.bigger {
+    font-size: x-large;
+}
+
+.bigger:hover {
+    font-size: xx-large;
+}
+
+/* Media Queries */
+
+/* For tablets  */
+@media (max-width: 1024px) and (min-width: 600px) {
+   
+   
+   div h2 {
+        font-size: 26px;
+    }
+
+    div p {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+/* For phones  */
+@media (max-width: 599px) {
+  
+.contact{
+    width: 200px;
+}
+    div p {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 9px;
+        width: 100;
+    }
+
+    .bigger {
+        font-size: large;
+    }
+}
+
+/* For laptops  */
+@media (min-width: 1025px) {
+   
+    
+
+    div p {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}

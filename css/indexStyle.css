@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+.bodybg {
+ 
+    background-image: url(../img/HiddenYemen.jpg);
+    background-position: center;
+    background-size: cover;
+    /* i want the background to be repeated*/
+    height: 100vh;
+    font-family: 'Montaga', sans-serif;
+}
+
+#logo{
+    border-radius: 30%;
+    margin-bottom: 0.44;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+div a{
+    color: #F9E3D3;
+    justify-content: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+div a:hover{
+    color: #3C1E08;
+    text-decoration: none;
+    font-size: larger;
+}
+
+header {
+    background-color: #8B4513;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+}
+
+#exper{
+    border: #935930 1px solid ;
+    border-radius:38%;
+    font-size: large;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    color: #0A0501;
+    background-color: #b98e6f;
+    width: 35%;
+}
+
+#exper:hover{
+    background-color: #F9E3D3;
+    font-size: larger;
+    width: 38%;
+}
+
+.content {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color:rgba(255, 254, 253, 0.44);
+    border-radius: 5px;
+    width: 1;
+    
+}
+
+
+div h1, div h2 {
+    color: #8B4513;
+    font-size: 30px;
+    margin-bottom: 9px;
+}
+
+
+
+div p{
+    font-size: 20px;
+    color: #0A0501;
+}
+
+footer {
+    background-color: #8B4513;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width: 100;
+}
+
+.social{
+    padding: 20px;
+    text-decoration: none;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+
+.copy{
+    color: #FEFCFA;
+    margin-bottom: 1px;
+}
+
+.bigger{
+    font-size: x-large;
+}
+
+.bigger:hover{
+    font-size: xx-large;
+}
+
+/* Media Queries */
+
+/* For tablets */
+@media (max-width: 1024px) and (min-width: 600px) {
+    #exper {
+        width: 50%;
+        font-size: medium;
+    }
+
+    .content {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    div h1, div h2 {
+        font-size: 26px;
+    }
+
+    div p {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 10px;
+        bottom: 0;
+        position: relative;
+        width: 1;
+    }
+}
+
+/* For phones */
+@media (max-width: 599px) {
+    #exper {
+        width: 70%;
+        font-size: small;
+    }
+
+    .content {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    div h1, div h2 {
+        font-size: 22px;
+    }
+
+    div p {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 9px;
+    }
+
+    .bigger {
+        font-size: large;
+    }
+}
+
+/* For laptops */
+@media (min-width: 1025px) {
+    #exper {
+        width: 35%;
+        font-size: large;
+    }
+
+    .content {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    div h1, div h2 {
+        font-size: 30px;
+    }
+
+    div p {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}

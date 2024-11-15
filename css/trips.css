@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+body {
+    background-color: #FCF1E9;
+    font-family: 'Montaga', sans-serif;
+}
+
+#logo{
+    border-radius: 30%;
+    margin-bottom: 0.44;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+div a{
+    color: #F9E3D3;
+    justify-content: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+div a:hover{
+    color: #3C1E08;
+    text-decoration: none;
+    font-size: larger;
+}
+
+header {
+    background-color: #8B4513;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+}
+
+
+
+ div h2 {
+    color: #8B4513;
+    font-size: 30px;
+    margin-bottom: 9px;
+}
+
+div p{
+    font-size: 20px;
+    color: #0A0501;
+}
+
+footer {
+    background-color: #8B4513;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width: 100;
+}
+
+.social{
+    padding: 20px;
+    text-decoration: none;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+
+.copy{
+    color: #FEFCFA;
+    margin-bottom: 1px;
+}
+
+.bigger{
+    font-size: x-large;
+}
+
+.bigger:hover{
+    font-size: xx-large;
+}
+
+/* Media Queries */
+
+/* For tablets  */
+@media (max-width: 1024px) and (min-width: 600px) {
+   
+   
+   
+
+    div p {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+/* For phones  */
+@media (max-width: 599px) {
+   
+
+     div h2 {
+        font-size: 22px;
+    }
+
+    div p {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 8px;
+    }
+
+    .bigger {
+        font-size: large;
+    }
+}
+
+/* For laptops  */
+@media (min-width: 1025px) {
+   
+   
+
+     div h2 {
+        font-size: 30px;
+    }
+
+    div p {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.trip {
+    width: 30%;
+    background-color: #FEFCFA;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    padding: 20px;
+    transition:  0.5s ease-in-out;
+}
+
+.trip:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    font-size: 28px;
+    color: #4e4e4e;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: #8B4513;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .trip {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .trip {
+        width: 100%;
+    }
+}
